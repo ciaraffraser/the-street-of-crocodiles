@@ -1,3 +1,5 @@
 # The Street of Crocodiles
 
-[the-street-of-crocodiles](https://ciaraffraser.github.io/the-street-of-crocodiles/the-street-of-crocodiles.html)
+[Version 1](https://ciaraffraser.github.io/the-street-of-crocodiles/the-street-of-crocodiles.html)
+
+[Version 2](https://ciaraffraser.github.io/the-street-of-crocodiles/the-street-of-crocodiles-version-2.html)
