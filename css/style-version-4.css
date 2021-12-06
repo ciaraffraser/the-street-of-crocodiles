@@ -9,7 +9,6 @@
 body{
     background:#f7f7f7;
     color: #333;
-    font-family: Josefin sans-serif;
 }
 
 header, section {
@@ -28,17 +27,14 @@ section{
     padding: 1em 0 1em 0;
 }
 
-.light {
-    background:#634444;
-    padding: 2em 0;
-
-}
 
 .gridimage{
     display:grid;
     grid-gap:10px;
     grid-template-columns:repeat(auto-fill, minmax(340px, 1fr));
 }
+
+
 
 /*--Typographic styling--*/
 
@@ -47,19 +43,17 @@ header h1 h2 p{
 }
 
 header h1 h2 {
-    font-style:italic;
-    font-size: 2.827rem;
-    color:#6E4D4D;
-    margin-top:-4rem;
+    margin-top:-rem;
     margin-bottom: -2rem;
     text-indent:1.5rem;
 }
 
 header h2{
+    font-family: josefin-slab, serif;
     font-size: 1.999rem;
     font-style:italic;
     color:#6E6E6E;
-    text-indent:1.5rem;
+    margin-top: -2em;
 }
 
 header p{
@@ -70,13 +64,19 @@ header p{
 
 
 header h1{
-    font-size:5.653rem;
-    margin-top:2.7rem;
-    color:#6E4D4D;
+    font-family: josefin-slab, serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 100px;
+    color: #6E4D4D;
     padding: 1em 0;
+    font-size:5.653rem;
+    margin-top:2rem;
 }
 
-h3 {
+.mornings h3 {
+    font-family: josefin-slab, serif;
+    font-style: italic;
     color:#bababa;
     margin-top:2.7rem;
     padding:1em 0;
@@ -88,17 +88,32 @@ p{
     line-height:1.4;
 }
 
+p{
+    font-family:"josefin-sans";
+}
+
 h3{
     font-size:1.999rem;
     margin:3em 0 1em 0;
+    font-family: josefin-slab, serif;
+    font-style: italic;
 }
 
 blockquote{
-    font-style:italic;
+    font-family: josefin-slab, serif;
+    font-style: bold italic;
     font-size: 1.5rem;
     color:#bababa;
     hanging-punctuation:first;
     text-indent:-0.9rem;
+}
+
+p .dropclass{
+    float: left;
+    font-size: 6rem;
+    padding-right: .05em;
+    line-height: .5;
+    color: #bababa;
 }
 
 cite{
@@ -117,9 +132,31 @@ a:hover{
     border-bottom:1px dotted;
 }
 
-h.one{
+.indent{
+    padding-left:4em;
+    font-style:italic;
+}
+
+.intro p{
+    color:#333;
+}
+
+.street p{
+    color:#333;
+}
+
+.market p{
+    color:#333;
+}
+
+.market h3{
     color:#634444;
 }
+
+.street h3{
+    color:#634444;
+}
+
 
 /*--Styling Nav--*/
 nav{
@@ -130,6 +167,7 @@ nav{
     width:100%;
     background:#634444;
     padding:3em 0;
+    font-family: josefin-slab, serif;
     font-size:0.75rem;
 }
 
@@ -167,31 +205,26 @@ img{
 }
 
 
-
 /*--Footer--*/
 
 footer{
     background:#070707;
+    text-align:center;
 }
 
 footer a{
+    font-family:"josefin-sans";
     text-align:center;
     font-size:0.75rem;
     color:#f7f7f7;
     margin:4rem 0 3em 0;
 }
+
 footer p{
     color:#f7f7f7;
-    font-family:'josefin sans';
-    font-style:normal;
+    font-family:"josefin-sans";
+    font-style: normal;
     font-size:small;
 }
-
-
-
-footer {
-    text-align:center;
-}
-
 
 
