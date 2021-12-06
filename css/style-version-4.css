@@ -13,8 +13,8 @@ body{
 }
 
 header, section {
-    width:80%;
-    max-width: 700px;
+    width:100%;
+    max-width: 800px;
     margin:auto;
     padding:0;
 }
@@ -23,7 +23,10 @@ section{
     margin-bottom:4rem;
 }
 
-.dark{background:#634444}
+.dark{
+    background:#634444;
+    padding: 1em 0 1em 0;
+}
 
 .light {
     background:#634444;
@@ -92,7 +95,7 @@ h3{
 
 blockquote{
     font-style:italic;
-    font-size: 1.999rem;
+    font-size: 1.5rem;
     color:#bababa;
     hanging-punctuation:first;
     text-indent:-0.9rem;
@@ -126,7 +129,7 @@ nav{
     margin:0;
     width:100%;
     background:#634444;
-    padding:2em 0;
+    padding:3em 0;
     font-size:0.75rem;
 }
 
@@ -181,8 +184,11 @@ footer p{
     color:#f7f7f7;
     font-family:'josefin sans';
     font-style:normal;
-    font-size:xx-small;
+    font-size:small;
 }
+
+
+
 footer {
     text-align:center;
 }
