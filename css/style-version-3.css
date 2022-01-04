@@ -25,18 +25,20 @@ section{
     margin-bottom:4rem;
 }
 
-.dark{background:#007600}
+.dark{background:#FF8B7D}
 
 .light {
-    background:#c6ffcf;
+    background:#40221F;
     padding: 2em 0;
 
 }
-
+.light p{
+    color:#f7f7f7;
+}
 /*--Typographic styling--*/
 
 header h1 h2 p{
-    color:#f7f7f7;
+    color:#806765;
 }
 
 header h1 h2 {
@@ -44,17 +46,19 @@ header h1 h2 {
     font-weight: 400;
     font-style: italic;
     font-size: 2.827rem;
-    color:#ffeafe;
+    color:#806765;
     margin-top:-4rem;
     margin-bottom: -2rem;
     text-indent:1.5rem;
+    padding: 2em 0;
+
 }
 
 header h2{
     font-size: 1.999rem;
     font-style:italic;
-    color:#f7f7f7;
-    text-indent:1.5rem;
+    color:#ffffff;
+    padding:2em 0 2em 0;
 }
 
 header p{
@@ -68,11 +72,12 @@ header h1{
     font-size:5.653rem;
     margin-top:2.7rem;
     color:#f7f7f7;
-    padding: 1em 0;
+    padding-top:1em;
+
 }
 
 h3 {
-    color:#760071;
+    color:#E67C70;
 }
 
 p{
@@ -89,7 +94,7 @@ h3{
 blockquote{
     font-style:italic;
     font-size: 1.999rem;
-    color:#760071;
+    color:#40221F;
     hanging-punctuation:first;
     text-indent:-0.9rem;
 }
@@ -117,7 +122,7 @@ nav{
     left:0;
     margin:0;
     width:100%;
-    background:#4f014c;
+    background:#BF675E;
     padding:2em 0;
     font-size:0.75rem;
 }
@@ -134,12 +139,12 @@ nav ul li{
 }
 
 nav a{
-    color:#f7f7f7;
+    color:#40221F;
 }
 
 nav a:hover{
     border-bottom:none;
-    color:#fc8ebf;
+    color:#f7f7f7;
     transition:all 0.3s ease-in-out;
 }
 
@@ -172,11 +177,11 @@ img{
 footer a{
     text-align:center;
     font-size:0.75rem;
-    color:#f7f7f7;
+    color:#40221F;
     margin:4rem 0 3em 0;
 }
 footer p{
-    color:#f7f7f7;
+    color:#40221F;
 }
 footer {
     text-align:center;
